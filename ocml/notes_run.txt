@@ -1,0 +1,17 @@
+How to run and check that things are working:
+
+1. Open 4 Terminals
+
+2. In 1st Terminal, run ./build_game.sh from /game
+   run ./game
+
+3. In 2nd Terminal, from /gui, run java -jar gui_client.jar
+
+4. In 3rd Terminal, from /team, run build_team.sh teamname, where teamname is the name of the bot in
+   the file bot/teamname.ml
+   For now, replace teamname with babybot.
+   Run ./teamname localhost 10500
+
+5. In 4th Terminal, run ./teamnamelocalhost 10500 in separate terminal.
+
+6. Without anything implemented, the program should now throw an exception.
