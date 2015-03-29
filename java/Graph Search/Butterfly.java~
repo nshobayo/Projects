@@ -1,4 +1,3 @@
-/** TIME SPENT: 8 hours and 00 minutes. */ 
 
 package student;
 import java.util.ArrayList;
