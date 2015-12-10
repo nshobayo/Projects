@@ -3,13 +3,6 @@ open Definitions
 open Constants
 open Util
 
-(* Attention Student:
- * Do not change the arguments of handle_request. However, feel free to change 
- * all of the inside and write many helper functions if you want to have a good bot.
- *)
-
-(* Change this to the name of your bot. *)
-
 let name = "bot" 
 
 let _ = Random.self_init ()
